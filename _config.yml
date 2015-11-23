@@ -10,7 +10,7 @@ title: antipop.fm
 email: ketarok@gmail.com
 description: 面白くてためになるポッドキャスト
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://antipop.fm/" # the base hostname & protocol for your site
+url: "http://antipop.fm" # the base hostname & protocol for your site
 twitter_username: kentaro
 github_username:  kentaro
 permalink: /:title
