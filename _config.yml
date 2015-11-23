@@ -13,7 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://antipop.fm" # the base hostname & protocol for your site
 twitter_username: kentaro
 github_username:  kentaro
-permalink: /:title
+permalink: /:title/
 
 # Build settings
 markdown: kramdown
