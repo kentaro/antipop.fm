@@ -8,7 +8,7 @@
 # Site settings
 title: antipop.fm (あんちぽえふえむ)
 email: ketarok@gmail.com
-description: 面白くてためになるポッドキャスト
+description: スキマ時間に教養を。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://antipop.fm" # the base hostname & protocol for your site
 twitter_username: kentaro
