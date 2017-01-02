@@ -11,7 +11,12 @@ $this->layout("layout", [
   });
 
   foreach ($pages as $page) :
-  if ($page->path() == "index") continue;
+    if (
+      $page->path() == "index" ||
+      $page->path() == "feed"
+    ) {
+      continue;
+    }
 ?>
   <section class="episodes">
     <h2><a href="<?= $page->path() ?>"><?= $page->metadata()["title"] ?></a></h2>
