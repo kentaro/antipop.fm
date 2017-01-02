@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kentaro/soushi": "^0.0.3"
+    }
+}

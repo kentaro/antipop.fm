@@ -1,0 +1,4 @@
+---
+title: Index
+template: index
+---
