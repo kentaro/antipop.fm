@@ -19,10 +19,9 @@ body {
 .header {
   flex: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border-bottom: 1px solid #f0f0f0;
-  margin: 0;
-  padding: 0 5em;
+  text-align: center;
 }
 
 .header > h1 {
@@ -31,15 +30,16 @@ body {
 
 .header > ul {
   flex: 1;
+  text-align: center;
   margin: 0;
-  padding: 2em 0;
+  padding: 0 0 1em 0;
 }
 
 .header > ul > li {
   display: inline;
   list-style-type: none;
-  margin-right: 3em;
-  padding: 2em 0;
+  margin-right: 1em;
+  padding-left: 1em;
 }
 
 .header > ul > li > a:link,
@@ -53,7 +53,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 1em 5em;
+  padding: 1em 5%;
 }
 
 section.episodes {
@@ -65,7 +65,7 @@ section.episodes {
   text-align: center;
   border-top: 1px solid #f0f0f0;
   margin: 0;
-  padding: 2em;
+  padding: 1em;
 }
 
 .footer a:link,
