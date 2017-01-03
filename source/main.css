@@ -53,7 +53,16 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 1em 5%;
+  padding: 1em 20vh;
+}
+
+@media (max-width: 767px) {
+  .body {
+    padding: 1em 5vh;
+  }
+}
+
+@media not handheld {
 }
 
 section.episodes {
