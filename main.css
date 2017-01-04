@@ -1,0 +1,102 @@
+@import url('//fonts.googleapis.com/css?family=Varela+Round');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.header > h1 {
+  flex: 1;
+}
+
+.header > ul {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 1em 0;
+}
+
+.header > ul > li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 1em;
+  padding-left: 1em;
+}
+
+.header > ul > li > a:link,
+.header > ul > li > a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em 20vh;
+}
+
+@media (max-width: 767px) {
+  .body {
+    padding: 1em 3vh;
+  }
+}
+
+@media not handheld {
+}
+
+section.episodes {
+  flex: 1;
+}
+
+.footer {
+  flex: 1;
+  text-align: center;
+  border-top: 1px solid #f0f0f0;
+  margin: 0;
+  padding: 1em;
+}
+
+.footer a:link,
+.footer a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+section.episodes p a:link {
+  color: #0099CC;
+}
+
+section.episodes p a:visited {
+  color: #006699;
+}
+
+h1, h1 a:link, h1 a:visited,
+h2, h2 a:link, h2 a:visited,
+h3, h3 a:link, h3 a:visited,
+h4, h4 a:link, h4 a:visited,
+h5, h5 a:link, h5 a:visited,
+h6, h6 a:link, h6 a:visited {
+  color: #003366;
+  text-decoration: none;
+}
