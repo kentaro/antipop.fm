@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="alternate" type="application/rss+xml" title="antipop.fm - Feed" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="antipop.fm - Feed" href="http://feeds.soundcloud.com/users/soundcloud:users:188611416/sounds.rss">
     <title><?= $config->site_title() . " - " . $page->metadata()["title"] ?></title>
   </head>
   <body>
@@ -13,7 +13,7 @@
       <div class="header">
         <h1><a href="./"><?= $config->site_title() ?></a></h1>
         <ul>
-          <li><a class="page-link" href="http://antipop.fm/feed">RSS</a></li>
+          <li><a class="page-link" href="http://feeds.soundcloud.com/users/soundcloud:users:188611416/sounds.rss">RSS</a></li>
           <li><a class="page-link" href="https://itunes.apple.com/jp/podcast/antipop.fm/id1062624307">iTunes</a></li>
         </ul>
       </div>
